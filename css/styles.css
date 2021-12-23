@@ -479,7 +479,7 @@ ul {
   margin-top: 20px;
 }
 
-.adress {
+.adress-street {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -502,9 +502,10 @@ ul {
 .tel:focus {
   color: var(--accent-color);
 }
-.adress-street {
+/* .adress-street {
+  
   color: var(--primary-bg-color);
-}
+} */
 
 .adress-item:not(:last-child) {
   margin-bottom: 9px;
@@ -572,6 +573,37 @@ ul {
   color: var(--primary-bg-color);
   outline: none;
   margin-right: 12px;
+}
+
+.button-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-bg-color);
+  fill: currentColor;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: background-color 250ms var(--time-function),
+    color 250ms var(--time-function);
+}
+.button-signup:hover,
+.button-signup:focus {
+  background-color: var(--backround-color);
+  color: var(--accent-color);
+}
+
+.submit-img {
+  margin-left: 10px;
 }
 
 /* Мейн портфолио */
