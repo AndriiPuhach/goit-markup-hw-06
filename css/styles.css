@@ -772,6 +772,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: var(--time-function);
   transform: translate(-50%, -50%) rotate(360deg);
+  padding: 40px;
 }
 
 .backdrop.is-hidden .modal {
@@ -798,4 +799,30 @@ ul {
 .close-button:hover,
 .close-button:focus {
   transform: rotate(-180deg);
+}
+
+.modal-headline {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.modal-form {
+  margin-top: 12px;
+}
+
+.form-input-box {
+  display: block;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.form-message {
+  width: 100%;
+  resize: none;
 }
