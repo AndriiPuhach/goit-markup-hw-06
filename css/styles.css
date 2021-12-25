@@ -793,12 +793,14 @@ ul {
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: transform 250ms var(--time-function);
+  transition: transform 250ms var(--time-function),
+    fill 250ms var(--time-function);
 }
 
 .close-button:hover,
 .close-button:focus {
-  transform: rotate(-180deg);
+  transform: rotate(-90deg);
+  fill: var(--accent-color);
 }
 
 .modal-headline {
