@@ -832,13 +832,10 @@ ul {
   width: 18px;
   height: 18px;
   position: absolute;
-  top: 54%;
+  top: 50%;
   left: 10px;
   fill: inherit;
   transition: fill 250ms var(--time-function);
-  height: 12px;
-  width: 12px;
-  transform: translate(-54% -54%);
 }
 
 .form-input,
